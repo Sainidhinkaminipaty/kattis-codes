@@ -9,10 +9,10 @@ static double calculatePercentage(int r, int c)
 	// Declare value of pi 
 	double pi = 3.1415926536; 
 
-	// Calculate area of outer circle 
+	// formula for Calculating area of outer circle 
 	double arr = pi * r * r; 
 
-	// Calculate area of inner circle 
+	// formula for Calculating area of inner circle 
 	double arc = pi * c * c; 
 	// Percentage of cheese
 	return arc/arr*100; 
